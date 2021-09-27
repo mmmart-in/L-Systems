@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8216a2b04978fa24bbe58fa30b5e944e, type: 3}
+  m_Name: RuleSet_Tree_Short 1
+  m_EditorClassIdentifier: 
+  leafColor: {r: 0.107295625, g: 0.7075472, b: 0.09678713, a: 0}
+  trunkColor: {r: 0.4339623, g: 0.28140032, b: 0.079832695, a: 0}
+  colorVariance: 0.12
+  minGenerations: 0
+  maxGenerations: 0
+  length: 1
+  axiom: FFX
+  branchAngle: 20
+  yAxis: 0
+  treeStartSize: 0.5
+  branchSizeMultiplier: 0.8
+  f: F
+  x: F+[/[/FX]-X]-*F[-FX]+X
+  l: 
+  minus: 
+  plus: 
+  star: 
+  slash: 
+  a: 
+  b: 
+  c: 

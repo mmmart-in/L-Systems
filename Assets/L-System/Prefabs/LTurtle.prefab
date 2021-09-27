@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3607200929142003886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3607200929142003880}
+  - component: {fileID: 3607200929142003881}
+  m_Layer: 0
+  m_Name: LTurtle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3607200929142003880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3607200929142003886}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3607200929142003881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3607200929142003886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c70503adcf1b24d84b9ab8608f1bbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RuleSet: {fileID: 11400000, guid: 6464838df79f490489b601d3f517c804, type: 2}
+  maxGenerations: 4
+  minGenerations: 2
+  nextSentence: 
+  maxAngleVariance: 12
+  startSizeVariance: 0.05
+  lengthVariance: 0.08
+  scaleVariance: 0.35
+  leafSizeVariance: 0.22
+  maxLeavesPerBranch: 6
+  leafTilt: 0.4
+  leafRotationVariance: 15
+  leafTiltVariance: 30
+  treeParentPrefab: {fileID: 950665503271287931, guid: b4c873b054b27ab49a6243a4c81a9df8, type: 3}
+  leafParentPrefab: {fileID: 950665503271287931, guid: b4c873b054b27ab49a6243a4c81a9df8, type: 3}
+  branch: {fileID: 5191011863178289629, guid: f6cab41705d791f48abad519b342f52e, type: 3}
+  leaf: {fileID: 8242423641092767758, guid: c047a2ff758164e47864644837c824c5, type: 3}
+  plantPartsHolder: {fileID: 0}

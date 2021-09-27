@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8216a2b04978fa24bbe58fa30b5e944e, type: 3}
+  m_Name: RuleSet_Bush 1
+  m_EditorClassIdentifier: 
+  leafColor: {r: 1, g: 0.0047169924, b: 0.96855426, a: 0}
+  trunkColor: {r: 0.2034288, g: 0.4627451, b: 0.16078432, a: 1}
+  flowerColor: {r: 0, g: 0, b: 0, a: 0}
+  colorVariance: 0.2
+  minGenerations: 0
+  maxGenerations: 0
+  length: 1
+  axiom: X
+  branchAngle: 25
+  yAxis: 0
+  treeStartSize: 0.35
+  branchSizeMultiplier: 0.85
+  f: FXX
+  x: '[*+FXO][+FXO][/+F-FXO]O'
+  l: 
+  minus: '-'
+  plus: +
+  star: '*'
+  slash: /
+  a: 
+  b: 
+  c: 
