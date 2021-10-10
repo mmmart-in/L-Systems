@@ -60,7 +60,6 @@ public class PlantPlacer : MonoBehaviour
         float z = Random.Range(minimumZ, maximumZ);
         Transform plantInstance = instance.transform.parent;
         plantInstance.position = new Vector3(x, originalSpawnHeight, z);
-
         //Debug.Log("Parent position before adjusting y: " + instance.transform.parent.transform.position);
 
     }

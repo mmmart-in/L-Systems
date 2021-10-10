@@ -480,21 +480,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LTurtle: {fileID: 88877884}
-  Player: {fileID: 1364167044}
+  Player: {fileID: 0}
   singlePlantSpawnMargin: 0
-  currentPlant: {fileID: 0}
-  heightMargin: -0.5
-  coll: {fileID: 0}
-  maxNumOfRecursions: 10
-  iterations: 0
-  originalSpawnHeight: 200
   groundLayer:
-    m_Bits: 4294967295
+    serializedVersion: 2
+    m_Bits: 73
   minimumX: -50
   maximumX: 50
   minimumZ: -50
   maximumZ: 50
-  plantAmount: 25
+  plantAmount: 0
 --- !u!4 &670775272
 Transform:
   m_ObjectHideFlags: 0
